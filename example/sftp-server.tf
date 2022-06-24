@@ -4,7 +4,7 @@ module "pay-at-table-transfer-family" {
     aws.replication = aws.replication
   }
   environment-name                  = "dev"
-  availability-zones                = "ap-southeast-1"
+  availability-zones                = "ap-southeast-2"
   endpoint-type                     = "VPC"
   transfer-protocols                = ["SFTP"]
   transfer-vpc-id                   = "xxxxxx"
