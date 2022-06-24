@@ -1,4 +1,4 @@
 provider "aws" {
   alias   = "replication"
-  region  = var.region
+  region  = "ap-southeast-1"
 }
